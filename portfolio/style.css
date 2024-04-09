@@ -1,0 +1,29 @@
+.nav{
+    margin-right: 20px;
+}
+strong{
+    padding-left: 10px;
+}
+.nav2{
+    background-color: #058686;
+    height: 100px;
+}
+.Lien{
+    color: black;
+}
+.Titre{
+    text-align: center;
+    color: #058686;
+    font-family:'Courier New', Courier, monospace , sans-serif;                                                     
+}                                               
+.Presentation{
+    background-image:url(arbre.avif)
+    width
+   
+}
+.CV{
+    color: #058686;
+    width: 330px;
+    padding-left: 35px;
+    margin-left: 500px;
+}
