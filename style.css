@@ -13,52 +13,96 @@ strong{
 }
 .Titre{
     color: black;
-    font-family:'Courier New', Courier, monospace , sans-serif; 
-    padding-left: 320px;                                                    
-}                                               
+    font-family: 'Courier New', Courier, monospace , sans-serif; 
+    text-align: center;  
+}                      
 .Presentation{
-    background-image:url(arbre.avif);
+    background-image:url(plage.avif);
     background-size: cover;
 }
     
 
 .CV{
-    color:black;
-    width: 330px;
-    padding-left: 35px;
+    color:white;
+    
     margin-left: 500px;
 }
 img{
    width: 100%;
 }
 .photo{
-    background-image:url(hiver.avif);
+    background-image:url(fondnoir.jpg);
     background-size: cover;
+    padding-bottom: 20px;
 }
 
 .ecole{
     color:#058686; 
-}
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    margin-left: 20px;}
+
+
 .Limas{
      width: 440px;
      
 }
-.plage{
-    background-image:url(plage.avif);
-    background-size: cover;
+.rouge{
+    padding-left: 400px;
+    padding-right: 400px;
 }
+
 .automne{
-    background-image: url(automne.avif);
+    background-image: url(rond.jpeg);
     background-size: cover;
 }
 
-p{
-    font-family: "Libre Baskerville", serif;
-}
+
 .cote{
-    padding-left: 350px;
-}
+    padding-left: 30px;
+    font-family: europa,sans serif;}
+
+
 .formulaire{
     background-color: #058686;
     width: 100%;
 }
+.fin{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+font-size: 50px;
+padding-left: 600px;
+}
+.blanc{color: white;
+    font-family:'Courier New', Courier, monospace , sans-serif; 
+    text-align: center;
+}
+.paragraphe{
+    font-family:europa,sans serif;}
+  
+   section, ul {
+    --pico-block-spacing-vertical: 0;
+    --pico-typography-spacing-vertical: 0;
+    margin: 0;
+   }
+   .noir{
+    background-color: black;
+    width: 100%;
+   }
+    
+   .blanc{
+    color: white;
+   }
+   progress {
+    width: 96%!important;
+    margin-left: 20px;
+   }
+    .gris{
+        background-color:#474747;
+        margin:20px;
+        width: 98%;
+    }
+   
