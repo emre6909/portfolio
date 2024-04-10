@@ -12,17 +12,53 @@ strong{
     color: black;
 }
 .Titre{
-    text-align: center;
-    color: #058686;
-    font-family:'Courier New', Courier, monospace , sans-serif;                                                     
+    color: black;
+    font-family:'Courier New', Courier, monospace , sans-serif; 
+    padding-left: 320px;                                                    
 }                                               
 .Presentation{
-    background-image:url(arbre.avif)
-   
+    background-image:url(arbre.avif);
+    background-size: cover;
 }
+    
+
 .CV{
-    color: #058686;
+    color:black;
     width: 330px;
     padding-left: 35px;
     margin-left: 500px;
+}
+img{
+   width: 100%;
+}
+.photo{
+    background-image:url(hiver.avif);
+    background-size: cover;
+}
+
+.ecole{
+    color:#058686; 
+}
+.Limas{
+     width: 440px;
+     
+}
+.plage{
+    background-image:url(plage.avif);
+    background-size: cover;
+}
+.automne{
+    background-image: url(automne.avif);
+    background-size: cover;
+}
+
+p{
+    font-family: "Libre Baskerville", serif;
+}
+.cote{
+    padding-left: 350px;
+}
+.formulaire{
+    background-color: #058686;
+    width: 100%;
 }

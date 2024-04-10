@@ -9,6 +9,9 @@
      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
      <link href="https://fonts.cdnfonts.com/css/coldiac-free" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3eb3fce4ea.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <section>
@@ -17,29 +20,85 @@
               <li><strong>Emre CENGIZ</strong></li>
             </ul>
             <ul>
-              <li  class="secondary"><a href="#" class="Lien">Presentation</a></li>
+              <li  class="secondary"><a href="#Presentation" class="Lien">Presentation</a></li>
               <li>
                 <details class="dropdown">
                   <summary class="nav">
                     A propos
                   </summary>
                   <ul dir="rtl">
-                    <li class="Lien"><a href="#">Parcours</a></li>
-                    <li class="Lien"><a href="#">Experiences</a></li>
-                    <li class="Lien"><a href="#">Compétences</a></li>
-                    <li class="Lien"><a href="#">Formulaire</a></li>
-                    <li class="Lien"><a href="#">Contact</a></li>
+                    <li class="Lien"><a href="#Parcours">Parcours</a></li>
+                    <li class="Lien"><a href="#Experiences">Experiences</a></li>
+                    <li class="Lien"><a href="#Compétences">Compétences</a></li>
+                    <li class="Lien"><a href="#Formulaire">Formulaire</a></li>
+                    <li class="Lien"><a href="#Contact">Contact</a></li>
                     <li></li>
                   </ul>
                 </details>
               </li>
             </ul>
           </nav>
-          <div id="Présentation" class="Presentation">
+          <section class="Presentation">
+          <div id="Présentation">
           <h2 class="Titre">Présentation</h2>
           <h2 class="Titre">Bienvenue sur mon Portfolio!!!</h2>
-          <p class="CV">je m'apelle Emre CENGIZ.Je suis actuellement étudiant a la toile.Curieux, motivé et créatif, j'aime acquérir de nouvelles compétences et apprendre de nouvelles choses.Voici mon CV ci-dessous. <a href="QRcode.png">CV</a></p>
+          <p class="CV ecole"><strong>je m'apelle Emre CENGIZ.Je suis actuellement étudiant a la toile.Curieux, motivé et créatif, j'aime acquérir de nouvelles compétences et apprendre de nouvelles choses.Voici mon CV ci-dessous. <a href="QRcode.png">CV</a></strong></p>
           </div>
+          </section>
+          <section class="photo">
+            <div id="Parcours">
+              <h2 class="Titre ">Parcours</h2>
+              <ul class="ecole cote">
+                <li><strong> Claude Bernard Villefranche-Sur-Saône
+                  Baccalauréat STMG option mercatique 2021</strong></li>
+                <li class="Limas"><strong>Business School du Beaujolais 
+                  Campus Martelet Limas
+                  BTS Négociation et Digitalisation de la Relation Client Initial 2021-2023.
+                  Création d'un partenariat entre l'école et une entreprise extérieure : Identification des opportunités de collaboration et négociation aboutissant à une collaboration fructueuse.
+                  Certification PIX</strong></li>
+              </ul>
+            </div>
+          </section>
+          <section class="plage">
+            <div id="Experiences">
+              <h2 class="Titre ">Experiences</h2>
+              <ul class="ecole">
+                <li><strong>Stage Développement commercial chez CCB  (Centre de Contrôle du Bâtiment) MAI 2022 -  JUIN 2022 <br>Prospection sur le terrain,  j'explore de nouvelles opportunités commerciales en interagissant directement avec les clients pour développer le portefeuille clients et atteindre les objectifs de vente.<br>Avec une approche méthodique et une grande rigueur, j'ai acquis une technique en tâches administratives, me permettant de gérer de manière organisée et efficace le classement des bons de commandes, bons de livraison et factures, assurant ainsi une gestion administrative sans faille au sein de l'entreprise.</strong></li>
+                <li ><strong>Stage Développement commercial chez AB-Secure (DECEMBRE 2022 - JANVIER 2023)<br>Création de flyers, je conçois des supports visuels percutants et créatifs pour promouvoir efficacement les produits et services de l'entreprise.
+                </strong>
+                </li>
+                <li><strong>CDI Leclerc(AOÛT  2023 - SEPTEMBRE 2023)<br>Grâce à mon sens naturel de l'organisation et mon souci du détail, j'assure une mise en rayon efficace et ordonnée qui contribue à rendre l'expérience d'achat des clients plus agréable.
+                </strong>
+                </li>
+                <li><strong>CDI LaPoste(NOVEMBRE 2023 - DECEMBRE 2023)<br>Avec précision et efficacité, je prends en charge le tri du courrier, assurant ainsi une distribution rapide et organisée des documents importants au sein de l'entreprise.<br>Je prends en charge la distribution du courrier de manière fluide et efficace, m'assurant que chaque document atteint sa destination à temps, facilitant ainsi le bon déroulement des activités au sein de l'entreprise.
+                </strong>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="automne">
+            <div id="Compétences">
+              <h2 class="Titre ">Compétences</h2>
+              <p class="ecole"><strong>Wordpress:</strong></p>
+              <progress value="90" max="100"></progress>
+              <p class="ecole"><strong>Prestashop:</strong></p>
+              <progress value="71" max="100"></progress>
+              <p class="ecole"><strong>Anglais:</strong></p>
+              <progress value="71" max="100"></progress>
+              <p class="ecole"><strong>HTML:</strong></p>
+              <progress value="20" max="100"></progress>
+              <p class="ecole"><strong>CSS:</strong></p>
+              <progress value="20" max="100"></progress>
+              <p class="ecole"><strong>Espagnol:</strong></p>
+              <progress value="10" max="100"></progress>
+            </div>
+          </section>
+          <section class="formulaire">
+            <div id="Formulaire">
+              <h2 class="Titre ">Formulaire</h2>
+            </div>
+          </section>
+
     </section>
     
 </body>
