@@ -1,0 +1,73 @@
+.rouge {
+    background-color: gray;
+    display: inline-block;
+    width: 100%;
+    padding-left: 280px;
+  }
+  .jaune {
+    display: inline-block;
+    padding-right: 15px;
+    margin-left: 23px;
+  }
+  .rose {
+    padding-left: 270px;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .bordure {
+    border: 1px solid black;
+    margin-top: 10px;
+  }
+  .centre {
+    text-align: center;
+  }
+  p {
+    margin-left: 13px;
+  }
+  #colonne {
+    columns: 2;
+  }
+  .elephant {
+    list-style: none;
+    padding-bottom: 5px;
+  }
+  .lion {
+    padding-left: 10px;
+  }
+  .leopard {
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 220px;
+  }
+  .gorille {
+    width: 300px;
+  }
+  .ours {
+    width: 1200px;
+    margin-left: 20px;
+    border: 1px solid black;
+  }
+  td,
+  th {
+    border: 1px solid black;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  .tigre {
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding:5px 0px;
+  
+  }
+  .table{
+    padding-left:500px;
+  }
