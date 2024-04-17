@@ -100,7 +100,7 @@ padding-left: 600px;
     .gris{
         background-color:#474747;
         margin:20px;
-        width: 96%;
+        width: 90%;
     }
    .arbre{
     background-image: url(arbre.jpg);
@@ -109,6 +109,7 @@ padding-left: 600px;
 .lien{
     color: white;
     margin-right: 50px;
+    text-decoration:underline black;
 }
 .millieu{
     margin-left: 400px;
@@ -116,4 +117,8 @@ padding-left: 600px;
 }
 .margin{
     margin-left: 200px;
+}
+.noir{
+    background-color: black;
+    width: 100%;
 }
