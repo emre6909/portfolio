@@ -106,4 +106,14 @@ padding-left: 600px;
     background-image: url(arbre.jpg);
     background-size: cover;
 }
-   
+.lien{
+    color: white;
+    margin-right: 50px;
+}
+.millieu{
+    margin-left: 400px;
+
+}
+.margin{
+    margin-left: 200px;
+}
